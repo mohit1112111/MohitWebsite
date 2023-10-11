@@ -1,0 +1,95 @@
+.Intro {
+    height: calc(100vh - 4rem);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../Assest/[removal.ai]_27a3a9f2-3498-429e-b4a0-b6b06d015837-440-4404688_source-code-icon-png-transparent-png.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .Intro-text {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+  }
+  
+  .Intro-text h4,
+  .Intro-text h1,
+  .Intro-text h3,
+  .Intro-text p,
+  .Intro-text h2 {
+   
+    margin: 0;
+  }
+  
+  /* .Intro-text h3 {
+    white-space: nowrap;
+    animation: marquee-animation 10s linear infinite;
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+  
+  .btn1 {
+    font-family: 'Poppins', sans-serif;
+    width: max-content;
+    display: inline-block;
+    padding: .5rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+  }
+  
+  .btn1:hover {
+    background-color: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+  }
+  
+  .btn2-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+  
+  .Intro-btn {
+    text-align: center;
+  }
+  
+  .Intro-btn a {
+    margin: 0.5rem;
+  }
+  .scroll_down{
+    position: absolute;
+    right: 1rem;
+    bottom: 8rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: .9rem;
+  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .Intro {
+      height: auto;
+    }
+    
+    .Intro-text h1 {
+      font-size: 2rem; 
+    }
+    
+    .Intro-text h3 {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+#skills-conatainer{
+    height: 100%;
+    width: 90%;
+    margin: 4rem auto ;
+    
+    overflow: hidden;
+    
+}
+#skills-conatainer h5,h1{
+    text-align: center;
+}
+
+.skills-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skills-main >div{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: .5rem;
+    padding: 2rem 4rem;
+    transition: var(--transition);
+
+}
+.skills-main >div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+.skills-main h3{
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: .5rem;
+}
+.skills-details{
+    display: flex;
+    gap: .5rem;
+}
+.skills-datails-icon{
+    color: var(--color-primary);
+    margin-top: 5px;
+}
+@media screen  and (max-width:1024px) {
+    .skills-main{
+        grid-template-columns: 1fr;
+    }
+    .skills-main >div{
+        width: 90%;
+        margin: 0 auto;
+        padding: 3rem;
+    }
+    .skills-content{
+        padding: 1rem;
+    }
+}
+@media screen  and (max-width:600px) {
+    .skills-main{
+        gap:1rem;
+    }
+    .skills-main >div{
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+    }
+    
+}
