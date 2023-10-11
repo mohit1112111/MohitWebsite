@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mohitwebsite/static/css/main.417939f5.css",
+    "main.js": "/mohitwebsite/static/js/main.b8875562.js",
+    "static/js/787.85af7317.chunk.js": "/mohitwebsite/static/js/787.85af7317.chunk.js",
+    "static/media/MohitKumarResume(1).pdf": "/mohitwebsite/static/media/MohitKumarResume(1).d10823a913315cb35099.pdf",
+    "static/media/weatherProjectImg.PNG": "/mohitwebsite/static/media/weatherProjectImg.588ab2f7a4a7d4c8f877.PNG",
+    "static/media/TextUtils.PNG": "/mohitwebsite/static/media/TextUtils.008c6bee4bb08cfe6168.PNG",
+    "index.html": "/mohitwebsite/index.html",
+    "main.417939f5.css.map": "/mohitwebsite/static/css/main.417939f5.css.map",
+    "main.b8875562.js.map": "/mohitwebsite/static/js/main.b8875562.js.map",
+    "787.85af7317.chunk.js.map": "/mohitwebsite/static/js/787.85af7317.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.417939f5.css",
+    "static/js/main.b8875562.js"
+  ]
+}
